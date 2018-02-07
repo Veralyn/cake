@@ -1,0 +1,32 @@
+/*Mobile queries*/
+
+@media(max-width: 768px) {
+	.wrapper {
+		.background {
+			#h {
+				display: none;
+			}
+		}
+	}
+	.footer {
+		height: auto;
+		padding: 25px;
+		.connect {
+			ul {
+				margin-left: 0px;
+			}
+		}
+	}
+}
+@media (min-width:992px) {
+	.navbar-brand {
+		display: none;
+	}
+	.wrapper {
+		.background {
+			.move {
+				display: none;
+			}
+		}
+	}
+}
